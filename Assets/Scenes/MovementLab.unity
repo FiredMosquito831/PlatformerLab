@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f530b212c0e9f064687d8e678b53d54c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  jumpVelocity: 15
+  jumpVelocity: 16.6
   groundCheck: {fileID: 1146241969}
   groundCheckRadius: 0.15
   groundLayer:

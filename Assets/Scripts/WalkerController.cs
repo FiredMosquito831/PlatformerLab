@@ -34,7 +34,10 @@ public class WalkerController : MonoBehaviour
         {
             spriteRenderer.flipX = moveInput > 0f;
         }
-
+        if (jumpAction.WasPressedThisFrame())
+        {
+            jumpRequested = true;
+        }
         Debug.Log($"moveInput = {moveInput}");
     }
 
@@ -45,6 +48,11 @@ public class WalkerController : MonoBehaviour
         groundCheck.position, groundCheckRadius, groundLayer) != null;
         if (isGrounded != wasGrounded) Debug.Log($"isGrounded -> {isGrounded}");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        if (jumpRequested && isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpVelocity);
+        }
+        jumpRequested = false;
     }
 
     void OnDrawGizmosSelected()

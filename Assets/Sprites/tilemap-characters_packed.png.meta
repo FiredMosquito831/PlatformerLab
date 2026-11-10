@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0eab758bd1736fa45a1118fc47823fed
+guid: ada7acedfb85f6f4a90720d64d27fc6f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -128,9 +128,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
-  spriteGeometrySubdivision: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -159,19 +157,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -765,8 +750,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7088d04cfcca60148a8dace36902ef96
-      internalID: 822182698
+      spriteID: 9e5fa34a70db6284fa230d8d4160bc5c
+      internalID: 602517589
       vertices: []
       indices: 
       edges: []
@@ -787,8 +772,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79cf5ff1126dfcb4aa52ea210c4f949f
-      internalID: 1925149896
+      spriteID: 0bc87cbb040475644b14b2e3903ccea3
+      internalID: -2053140099
       vertices: []
       indices: 
       edges: []
@@ -797,7 +782,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c80d98957763fa34484a0752608ba6c6
+    spriteID: 06eb791f4e2495b4488fbadf421ae28b
     internalID: 0
     vertices: []
     indices: 
@@ -827,8 +812,8 @@ TextureImporter:
       tilemap-characters_packed_22: -1682323079826078375
       tilemap-characters_packed_23: 1748266406310441161
       tilemap-characters_packed_24: -5060921679397524387
-      tilemap-characters_packed_25: 822182698
-      tilemap-characters_packed_26: 1925149896
+      tilemap-characters_packed_25: 602517589
+      tilemap-characters_packed_26: -2053140099
       tilemap-characters_packed_3: -8912572294651161946
       tilemap-characters_packed_4: 311352632598324967
       tilemap-characters_packed_5: -4038945968399637897
